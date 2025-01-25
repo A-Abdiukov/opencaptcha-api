@@ -1,5 +1,5 @@
-# OpenCaptcha API
-This is a simple open-source captcha API, that can create captcha from text.
+## Summary
+OpenCaptcha API is a simple open-source captcha API, that can create captcha from text.
 
 - **Free and Unrestricted**: No cost, no API limits, no API key needed.
 - **Multi-Language Support**: Generates captchas in several languages, such as Mandarin, Arabic, Spanish, and more.
@@ -7,7 +7,17 @@ This is a simple open-source captcha API, that can create captcha from text.
 
 OpenCaptcha API is currently deployed without any restrictions at https://api.opencaptcha.io.
 
-## How to run locally:
+## Examples of Captcha generated
+
+(insert examples here)
+
+## Architecture diagram
+
+(add mermaid diagram here)
+
+## 
+
+## How to run:
 
 ### Getting started
 Development requirements are the following:
@@ -22,7 +32,7 @@ To run the API:
 3. API can be accessed at:
     - localhost:5280
 
-### How to run functional tests
+### How to test
 To run unit functional tests, you need to run WebApi project and then run the functional tests.
 
 1. Build the solution
