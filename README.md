@@ -7,7 +7,7 @@ OpenCaptcha API is a simple open-source captcha API, that can create captcha fro
 
 OpenCaptcha API is currently deployed without any restrictions at https://api.opencaptcha.io.
 
-## Examples of Captcha generated
+## Screenshots
 
 (insert examples here)
 
@@ -40,3 +40,11 @@ To run unit functional tests, you need to run WebApi project and then run the fu
 3. Navigate to the path `/src/Captcha.WebApi`
 4. Run command: `dotnet run`
 5. Open Visual Studio (or any other test runner) and run the functional tests.
+
+
+### Honourable mentions
+
+The code that generates captcha has originally been published on February 2, 2004. 
+- https://www.codeproject.com/Articles/5947/CAPTCHA-Image
+- http://www.brainjar.com/dotnet/captchaimage/
+
