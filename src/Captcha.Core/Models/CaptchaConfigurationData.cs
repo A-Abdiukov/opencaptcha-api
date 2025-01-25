@@ -2,9 +2,9 @@ namespace Captcha.Core.Models;
 
 public class CaptchaConfigurationData
 {
-    public string Text { get; init; }
-    public int Width { get; init; }
-    public int Height { get; init; }
-    public string Font { get; init; }
-    public CaptchaDifficulty Difficulty { get; init; }
+    public required string Text { get; init; }
+    public required int Width { get; init; }
+    public required int Height { get; init; }
+    public required string Font { get; init; }
+    public required CaptchaDifficulty Difficulty { get; init; }
 }

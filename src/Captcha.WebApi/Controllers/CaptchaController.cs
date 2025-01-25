@@ -13,6 +13,7 @@ public class CaptchaController(ILogger<CaptchaController> logger, ICaptchaServic
     [HttpPost]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [SwaggerRequestExample(typeof(CaptchaRequest), typeof(CreateCaptchaExamples))]
     public async Task<FileContentResult> Create(CaptchaRequest request)
     {
