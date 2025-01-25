@@ -21,7 +21,7 @@ public class MappingExtensionsTests
     public void ToDomainUsesDefaultWidthAndHeightWhenNotProvided()
     {
         // Arrange
-        var request = new CaptchaRequest();
+        var request = new CaptchaRequest() { Text = Guid.NewGuid().ToString() };
         // Act
         var result = request.ToDomain();
         Assert.Multiple(() =>
@@ -37,7 +37,7 @@ public class MappingExtensionsTests
     public void ToDomainUsesDefaultDifficultyWhenNotProvided()
     {
         // Arrange
-        var request = new CaptchaRequest();
+        var request = new CaptchaRequest() { Text = Guid.NewGuid().ToString() };
         // Act
         var result = request.ToDomain();
         // Assert
@@ -48,7 +48,7 @@ public class MappingExtensionsTests
     public void ToDomainUsesArialUnicodeMsForFontProperty()
     {
         // Arrange
-        var request = new CaptchaRequest();
+        var request = new CaptchaRequest() { Text = Guid.NewGuid().ToString() };
         // Act
         var result = request.ToDomain();
         // Assert
@@ -59,7 +59,7 @@ public class MappingExtensionsTests
     public void ToDomainUsesProvidedWidthWhenGiven()
     {
         // Arrange
-        var request = new CaptchaRequest { Width = 500 };
+        var request = new CaptchaRequest { Width = 500, Text = Guid.NewGuid().ToString()};
         // Act
         var result = request.ToDomain();
         // Assert
@@ -70,7 +70,7 @@ public class MappingExtensionsTests
     public void ToDomainUsesProvidedHeightWhenGiven()
     {
         // Arrange
-        var request = new CaptchaRequest { Height = 300 };
+        var request = new CaptchaRequest { Height = 300, Text = Guid.NewGuid().ToString() };
         // Act
         var result = request.ToDomain();
         // Assert
@@ -81,7 +81,7 @@ public class MappingExtensionsTests
     public void ToDomainUsesProvidedDifficultyWhenGiven()
     {
         // Arrange
-        var request = new CaptchaRequest { Difficulty = CaptchaDifficulty.Hard };
+        var request = new CaptchaRequest { Difficulty = CaptchaDifficulty.Hard, Text = Guid.NewGuid().ToString() };
         // Act
         var result = request.ToDomain();
         // Assert
