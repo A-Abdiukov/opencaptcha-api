@@ -1,11 +1,10 @@
-# Title
+# OpenCaptcha
 
-![banner]()
+![banner](https://opencaptcha.io/logo.png)
 
-![badge]()
-![badge]()
-[![license](https://img.shields.io/github/license/:user/:repo.svg)](LICENSE)
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[//]: # (![badge]&#40;&#41;)
+[//]: # (![badge]&#40;&#41;)
+[![license](https://img.shields.io/github/license/ashtonav/opencaptcha.svg)](LICENSE)
 
 This is an example file with maximal choices selected.
 
@@ -55,14 +54,13 @@ Note: The `license` badge image link at the top of this file should be updated w
 
 ## Contributing
 
-See [the contributing file](CONTRIBUTING.md)!
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
 
-PRs accepted.
+Please make sure to update tests as appropriate.
 
-Small note: If editing the Readme, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
-
-### Any optional sections
+[//]: # (### Any optional sections)
 
 ## License
 
-[MIT © Richard McRichface.](../LICENSE)
+[MIT](https://choosealicense.com/licenses/mit/)
