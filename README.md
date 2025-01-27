@@ -1,17 +1,21 @@
 # OpenCaptcha
 
-![banner](https://opencaptcha.io/logo.png)
+![banner](docs/logo.png)
 
 [//]: # (![badge]&#40;&#41;)
 [//]: # (![badge]&#40;&#41;)
+[//]: # (TODO: Add a badge here for Azure Container Instances deployment)
 [![license](https://img.shields.io/github/license/ashtonav/opencaptcha.svg)](LICENSE)
 
-This is an example file with maximal choices selected.
+OpenCaptcha is a free, publicly available API that generates captcha images from text.
 
-This is a long description.
+Please see an example of captcha generated below:
+![banner](docs/captcha_examples.gif)
+
 
 ## Table of Contents
 
+- [Features](#features)
 - [Security](#security)
 - [Background](#background)
 - [Install](#install)
@@ -20,11 +24,15 @@ This is a long description.
 - [Contributing](#contributing)
 - [License](#license)
 
-## Security
+## Features
 
-### Any optional sections
+- **Free and Unrestricted**: No cost, no API limits, no API key needed.
+- **Multi-Language Support**: Generates captchas in several languages, such as Mandarin, Arabic, Spanish, and more.
+- **Customizable**: Adjust captcha difficulty and size as needed.
 
 ## Background
+
+This is a hobby project
 
 ### Any optional sections
 
@@ -38,6 +46,16 @@ This module depends upon a knowledge of [Markdown]().
 ### Any optional sections
 
 ## Usage
+
+```mermaid
+sequenceDiagram
+    participant Client
+    participant Server
+
+    Client->>Server: POST api.opencaptcha.io/captcha with text "hello world"
+    Server-->>Client: returns "hello world" captcha image
+```
+
 
 ```
 ```
@@ -64,3 +82,10 @@ Please make sure to update tests as appropriate.
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
+### Honourable mentions
+
+The code that generates captcha has originally been published on February 2, 2004.
+- https://www.codeproject.com/Articles/5947/CAPTCHA-Image
+- http://www.brainjar.com/dotnet/captchaimage/
