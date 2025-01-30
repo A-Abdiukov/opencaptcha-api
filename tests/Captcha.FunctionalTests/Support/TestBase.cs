@@ -1,6 +1,7 @@
 namespace Captcha.FunctionalTests.Support;
-using RestSharp;
 
+using Reqnroll;
+using RestSharp;
 public class TestBase
 {
     protected RestClient Client { get; set; }
