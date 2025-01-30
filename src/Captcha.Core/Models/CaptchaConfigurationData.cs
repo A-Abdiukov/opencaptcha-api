@@ -1,6 +1,6 @@
 namespace Captcha.Core.Models;
 
-public class CaptchaConfigurationData
+public record CaptchaConfigurationData
 {
     public required string Text { get; init; }
     public required int Width { get; init; }
