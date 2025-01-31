@@ -6,10 +6,13 @@
 [//]: # (![badge]&#40;&#41;)
 [//]: # (TODO: Add a badge here for Azure Container Instances deployment)
 [![license](https://img.shields.io/github/license/ashtonav/opencaptcha.svg)](LICENSE)
+[![codecov](https://codecov.io/gh/ashtonav/opencaptcha/graph/badge.svg?token=ZD0L2LC2U0)](https://codecov.io/gh/ashtonav/opencaptcha)
+[![.NET](https://github.com/ashtonav/opencaptcha/actions/workflows/dotnet.yml/badge.svg)](https://github.com/ashtonav/opencaptcha/actions/workflows/dotnet.yml)
 
 OpenCaptcha is a free, publicly available API that generates captcha images from text.
 
 Please see an example of captcha generated below:
+
 ![banner](docs/captcha_examples.gif)
 
 
