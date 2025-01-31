@@ -1,5 +1,6 @@
 namespace Captcha.FunctionalTests.Support;
 
+using Microsoft.AspNetCore.Mvc.Testing;
 using Reqnroll;
 using RestSharp;
 public class TestBase
@@ -9,7 +10,9 @@ public class TestBase
 
     protected TestBase(ScenarioContext context)
     {
-        Client = new RestClient(new RestClientOptions(TestConstants.ServiceUrl));
+        var webApplicationFactory = new WebApplicationFactory<Program>();
+
+        Client = new RestClient(webApplicationFactory.CreateClient());
         Context = context;
     }
 }
