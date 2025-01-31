@@ -30,6 +30,8 @@ Please see an example of captcha images generated below:
 - **Multi-Language Support**: Generates captchas in several languages, such as Mandarin, Arabic, Spanish, and more.
 - **Customizable**: Adjust captcha difficulty and size as needed.
 
+OpenCaptcha API is currently deployed without any restrictions at https://api.opencaptcha.io.
+
 ## Background
 
 This is a hobby project
@@ -72,17 +74,11 @@ Note: The `license` badge image link at the top of this file should be updated w
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-[//]: # (### Any optional sections)
+Pull requests are welcome.  Please make sure to update tests as appropriate.
 
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
 
 ### Honourable mentions
 
