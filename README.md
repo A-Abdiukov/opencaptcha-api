@@ -6,11 +6,7 @@
 [![.NET](https://github.com/ashtonav/opencaptcha/actions/workflows/dotnet.yml/badge.svg)](https://github.com/ashtonav/opencaptcha/actions/workflows/dotnet.yml)
 [![license](https://img.shields.io/github/license/ashtonav/opencaptcha.svg)](LICENSE)
 
-OpenCaptcha is a free, public API that generates captcha images.
-
-OpenCaptcha API is available for free, without any costs, api limits or api keys, at api.opencaptcha.io.
-
-Alternatively you can host it yourself.
+OpenCaptcha is an open-source, free, public API that generates captcha images.
 
 ### Examples
 
@@ -18,53 +14,26 @@ Example 1: Generated captcha images are randomly distorted.
 
 ![banner](docs/captcha_examples.gif)
 
-Example 2: Generated captcha images can have texts in many languages.
+Example 2: Generated captcha images can have text in many languages.
 
 ![banner](docs/captcha_example_multilingual.gif)
 
 ## Table of Contents
 
+- [Usage](#usage)
 - [Installation](#installation)
   - [Getting started](#Gettingstarted) 
   - [Running tests](#Runningtests)  
-- [Usage](#usage)
 - [Acknowledgements](#acknowledgements)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Installation
-
-The API is available for free at api.opencaptcha.io.
-
-However, if you want to get it working on your local environment, keep reading.
-
-### How to run in Visual Studio
-
-#### Requirements:
-- Visual Studio 2022
-    - with `ASP.NET and web development` installed from Visual Studio Installer
-- .NET 8 SDK
-- Windows Operating System
-
-#### How to run:
-
-1. Open the solution in Visual Studio 2022.
-2. Build and launch the Captcha.WebApi project.
-3. API can be accessed at localhost:5280.
-
-#### How to test:
-1. Open the solution in Visual Studio 2022.
-2. Run tests in test explorer.
-
-### How to run in Docker containers
-
-#### Requirements:
-- Windows Operating System
-- [Optional] Docker using Windows Containers
-
-[//]: # (TODO: Add info here)
-
 ## Usage
+
+- API is available at api.opencaptcha.io, no need for  API limits, API keys.
+- Comprehensive documentation is available at opencaptcha.io.
+
+You can use OpenCaptcha for free (without any API limits, API keys etc) at api.opencaptcha.io. Alternatively, OpenCaptcha can be self-hosted on Windows Docker containers.
 
 CURL:
 ```bash
@@ -110,6 +79,39 @@ else:
 ```
 
 You've made a captcha that says "hello". Need further details or want to explore more? Take a look at our complete API documentation on api.opencaptcha.io.
+
+
+## Installation
+
+The API is available for free at api.opencaptcha.io.
+
+However, if you want to get it working on your local environment, keep reading.
+
+### How to run in Visual Studio
+
+#### Requirements:
+- Visual Studio 2022
+    - with `ASP.NET and web development` installed from Visual Studio Installer
+- .NET 8 SDK
+- Windows Operating System
+
+#### How to run:
+
+1. Open the solution in Visual Studio 2022.
+2. Build and launch the Captcha.WebApi project.
+3. API can be accessed at localhost:5280.
+
+#### How to test:
+1. Open the solution in Visual Studio 2022.
+2. Run tests in test explorer.
+
+### How to run in Docker containers
+
+#### Requirements:
+- Windows Operating System
+- Docker using Windows Containers
+
+[//]: # (TODO: Add info here)
 
 ## Architecture
 
