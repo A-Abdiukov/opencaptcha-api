@@ -21,12 +21,12 @@ OpenCaptcha is available for free at api.opencaptcha.io, alternatively you can h
 
 ## Table of Contents
 
-- [Install](#install)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Install
+## Installation
 
 The API is available for free at api.opencaptcha.io.
 
