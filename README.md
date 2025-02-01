@@ -77,9 +77,7 @@ sequenceDiagram
 
 ## Acknowledgements
 
-The code that generates captcha has originally been published on February 2, 2004.
-- https://www.codeproject.com/Articles/5947/CAPTCHA-Image
-- http://www.brainjar.com/dotnet/captchaimage/
+A significant portion of this project, especially captcha generation code is based on work originally published on February 9, 2004, by [BrainJar](https://www.codeproject.com/Articles/5947/CAPTCHA-Image).
 
 ## Contributing
 
