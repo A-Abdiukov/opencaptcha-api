@@ -65,9 +65,16 @@ However, if you want to get it working on your local environment, keep reading.
 
 ## Usage
 
-## Architecture
-(insert architecture diagrams here)
+```bash
+curl -X 'POST' \
+'https://api.opencaptcha.io/captcha' \
+-H 'Content-Type: application/json' \
+-d '{ "text": "hello" }'
+```
 
+## Architecture
+
+(insert architecture diagrams here)
 
 ## Acknowledgements
 
