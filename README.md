@@ -72,6 +72,8 @@ curl -X 'POST' \
 -d '{ "text": "hello" }'
 ```
 
+You've made a captcha that says "hello". Need further details or want to explore more? Take a look at our complete API documentation on api.opencaptcha.io.
+
 ## Architecture
 
 (insert architecture diagrams here)
