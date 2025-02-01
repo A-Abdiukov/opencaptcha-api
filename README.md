@@ -8,7 +8,20 @@
 
 OpenCaptcha is an open-source, free, public API that generates captcha images.
 
-### Examples
+OpenCaptcha's API is available at api.opencaptcha.io, and its documentation is available at opencaptcha.io.
+
+## Table of Contents
+
+- [Examples](#examples)
+- [Usage](#usage)
+- [Installation](#installation)
+  - [Getting started](#gettingstarted) 
+  - [Running tests](#runningtests)  
+- [Acknowledgements](#acknowledgements)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Examples
 
 Example 1: Generated captcha images are randomly distorted.
 
@@ -17,16 +30,6 @@ Example 1: Generated captcha images are randomly distorted.
 Example 2: Generated captcha images can have text in many languages.
 
 ![banner](docs/captcha_example_multilingual.gif)
-
-## Table of Contents
-
-- [Usage](#usage)
-- [Installation](#installation)
-  - [Getting started](#Gettingstarted) 
-  - [Running tests](#Runningtests)  
-- [Acknowledgements](#acknowledgements)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Usage
 
@@ -80,7 +83,6 @@ else:
 
 You've made a captcha that says "hello". Need further details or want to explore more? Take a look at our complete API documentation on api.opencaptcha.io.
 
-
 ## Installation
 
 The API is available for free at api.opencaptcha.io.
@@ -112,10 +114,6 @@ However, if you want to get it working on your local environment, keep reading.
 - Docker using Windows Containers
 
 [//]: # (TODO: Add info here)
-
-## Architecture
-
-(insert architecture diagrams here)
 
 ## Acknowledgements
 
