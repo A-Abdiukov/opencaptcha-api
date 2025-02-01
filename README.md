@@ -65,11 +65,47 @@ However, if you want to get it working on your local environment, keep reading.
 
 ## Usage
 
+CURL:
 ```bash
 curl -X 'POST' \
 'https://api.opencaptcha.io/captcha' \
 -H 'Content-Type: application/json' \
 -d '{ "text": "hello" }'
+```
+
+JavaScript
+```js
+fetch("https://api.opencaptcha.io/captcha", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({ text: "Hello World" })
+})
+  .then(response => response.blob())
+  .then(blob => {
+    // For browser usage, you can create an image element:
+    const imageUrl = URL.createObjectURL(blob);
+    const imgElement = document.createElement("img");
+    imgElement.src = imageUrl;
+    document.body.appendChild(imgElement);
+  })
+  .catch(error => console.error("Error:", error));
+
+```
+
+Python
+```python
+import requests
+
+url = "https://api.opencaptcha.io/captcha"
+data = {"text": "Hello World"}
+response = requests.post(url, json=data)
+
+if response.status_code == 200:
+    with open("captcha.png", "wb") as f:
+        f.write(response.content)
+    print("Captcha saved as captcha.png")
+else:
+    print("Error:", response.status_code, response.text)
 ```
 
 You've made a captcha that says "hello". Need further details or want to explore more? Take a look at our complete API documentation on api.opencaptcha.io.
