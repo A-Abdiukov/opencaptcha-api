@@ -37,31 +37,36 @@ The API is available for free at api.opencaptcha.io.
 
 However, if you want to get it working on your local environment, keep reading.
 
-### Requirements
+### How to run in Visual Studio
 
+#### Requirements:
 - Visual Studio 2022
     - with `ASP.NET and web development` installed from Visual Studio Installer
 - .NET 8 SDK
 - Windows Operating System
-- [Optional] Docker using Windows Containers 
 
-### Run locally
+#### How to run:
 
 1. Open the solution in Visual Studio 2022.
 2. Build and launch the Captcha.WebApi project.
-3. API can be accessed at:
-    - localhost:5280
+3. API can be accessed at localhost:5280.
 
-### Run docker
-
-
-### Running tests
-
+#### How to test:
 1. Open the solution in Visual Studio 2022.
 2. Run tests in test explorer.
 
+### How to run in Docker containers
+
+#### Requirements:
+- Windows Operating System
+- [Optional] Docker using Windows Containers
+
+[//]: # (TODO: Add info here)
+
 ## Usage
 
+## Architecture
+(insert architecture diagrams here)
 
 
 ## Acknowledgements
